@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "15.95\r\n10000",
+      "output": "The best option is option #1.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Test 2",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "15.95\r\n30000",
+      "output": "The best option is option #3.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Test 3",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "24.99\r\n10000",
+      "output": "The best option is option #2.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
